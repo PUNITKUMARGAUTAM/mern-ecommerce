@@ -31,14 +31,14 @@ const Navbar = () => {
 
       {/* ✅ Register Modal */}
       {showRegister && (
-        <div className="modal-overlay">
+        <div className="form-container">
           <Register onClose={() => setShowRegister(false)} />
         </div>
       )}
 
       {/* ✅ Login Modal */}
       {showLogin && (
-        <div className="modal-overlay">
+        <div className="form-container">
           <Login onClose={() => setShowLogin(false)} />
         </div>
       )}

@@ -1,6 +1,6 @@
 import React from "react";
+import "../components/Modal.css";
 import "./Login.css";
-
 const Login = ({ onClose }) => {
   return (
     <div className="form-container">
